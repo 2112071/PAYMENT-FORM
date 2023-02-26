@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+</head>
+<body>
+    <link rel="stylesheet" href="index.css">
+    <div class="container">
+    <form
+        action="">
+    <h1 class="main-heading">PAYMENT FORM</h1>
+    <H2>PERSONAL DETAILS</H2>
+    <P>
+        NAME: <input type="text" name="name" placeholder="name" required></P>
+        <FIELDSET>
+            <LEGEND>GENDER</LEGEND>
+    </BR>
+    <input type="radio" name="GENDER" VALUE="MALE" required>MALE 
+    </BR>
+        <input type="radio" name="GENDER" VALUE="FEMALE" required>FEMALE
+    </BR>
+        <input type="radio" name="GENDER" VALUE="OTHERS" required>OTHERS 
+    </BR>
+</FIELDSET> 
+<hr>
+<TEXTAREA NAME="ADDRESS" ID="ADDRESS" COLSPAN="100" ROWS="10" width="100"></TEXTAREA>ADDRESS
+</BR>
+<hr>
+EMAIL:<input type="email" name="EMAIL" placeholder="EMAIL" required>
+</BR>
+PINCODE:<input type="number" name="PINCODE" placeholder="PINCODE" required>
+<H2>PAYMENT DETAILS</H2>
+CARD TYPE:
+<select
+    name="CARD" id="card">
+    <option value="">SELECT A CARD TYPE></option>
+    <option value="CASH">CASH</option>
+    <option value="CREDIT CARD">CREDIT CARD</option>
+    <option value="AMAZON PAY">AMAZON PAY</option>
+    <option value="GOOGLE PAY">GOOGLE PAY</option>
+    <option value="UPI">UPI</option>
+    <option value="DEBIT CARD">DEBIT CARD</option>
+    </select>
+</BR>
+CARD NUMBER<input type="number" name="CARD NUMBER" PLACEHOLDER="CARD NUMBER">
+</BR>
+<input type="date"name="expiry date">
+</BR>
+    <input type="submit">
+    <input type="RESET">
+    </form>
+    
+</body>
+</html>
